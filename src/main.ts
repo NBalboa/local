@@ -3,7 +3,7 @@ import { AppModule } from './app.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  console.log('test hello world');
+  console.log('test hello world test');
   await app.listen(process.env.PORT ?? 3000);
 }
 bootstrap();
